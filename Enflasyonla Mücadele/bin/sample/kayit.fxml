@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SceneController">
+   <children>
+      <TextField fx:id="isim" layoutX="326.0" layoutY="175.0" />
+      <Label layoutX="296.0" layoutY="179.0" text="İsim" />
+      <TextField fx:id="soyisim" layoutX="326.0" layoutY="225.0" />
+      <Label layoutX="274.0" layoutY="229.0" text="Soyisim" />
+      <TextField fx:id="kullaniciadi1" layoutX="326.0" layoutY="275.0" />
+      <Label layoutX="251.0" layoutY="279.0" text="Kullanıcı Adı" />
+      <Label layoutX="295.0" layoutY="329.0" text="Şifre" />
+      <Label layoutX="265.0" layoutY="379.0" text="Şifre Tekrar" />
+      <Button fx:id="buton" layoutX="372.0" layoutY="449.0" mnemonicParsing="false" onAction="#kayit" text="Kayıt Ol" />
+      <PasswordField fx:id="sifrek" layoutX="327.0" layoutY="325.0" />
+      <PasswordField fx:id="sifrek1" layoutX="327.0" layoutY="375.0" />
+      <Label fx:id="hatalabelk" alignment="CENTER" layoutY="137.0" prefHeight="31.0" prefWidth="800.0" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
